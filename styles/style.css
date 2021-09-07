@@ -1,9 +1,61 @@
 body {
   min-width: 972px;
   min-height: 494px;
+  font-family: 'Noto Sans', sans-serif;
 }
+
+/*****Navbar*****/
+nav {
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav div {
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.774);
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.material-icons.md-darkgray {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#apps {
+  margin-top: 6px;
+  margin-right: 10px;
+  padding: 0 8px;
+  text-decoration: none;
+}
+
+#signin {
+  margin-right: 18px;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: white;
+  background-color:rgb(57, 130, 238);
+  font-size: 13px;
+  font-weight: 900;
+}
+
+#signin:hover {
+  cursor: default;
+}
+
+/*****Main*****/
 main {
-  margin-top: 156px;
+  margin-top: 112px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -39,7 +91,7 @@ main {
 }
 
 #search:hover {
-    cursor: default;
+  cursor: default;
 }
 
 .material-icons.md-20 {
@@ -56,7 +108,7 @@ main {
   width: 410px;
   height: 16px;
   border: 0;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 16px;
 }
 
@@ -76,7 +128,6 @@ main {
   padding: 8px 14px;
   border: 0;
   border-radius: 4px;
-  font-family: "Noto Sans", sans-serif;
   font-size: 14px;
   color: rgb(90, 90, 90);
   background-color: rgb(243, 243, 243);
